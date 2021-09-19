@@ -9,13 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
-
-	<script src="js/accordion.js" defer></script>
-	<script src="js/smoothScroll.js" defer></script>
-	<script src="js/tabs.js" defer></script>
-	<script src="js/modal.js" defer></script>
-	<script src="js/burger.js" defer></script>
-	<script src="js/sendForm.js" defer></script>
+	<script src="./dist/main.js" defer></script>
 </head>
 
 <body>
@@ -24,8 +18,8 @@
 		<div class="container">
 			<div class="header-wrapper">
 				<div class="header-main">
-					<a href="#" class="logo header__logo">
-						<img src="img/logo.svg" alt="Logo: BMW X6" class="logo__img">
+					<a href="#main" class="logo header__logo">
+						<img src="img/logo.svg" alt="Logo: A 200" class="logo__img">
 					</a>
 					<!-- /.logo -->
 					<nav class="menu">
@@ -41,7 +35,7 @@
 								</a>
 							</li>
 							<li class="menu-list__item">
-								<a href="#" class="menu-list__link">
+								<a href="#main" class="menu-list__link">
 									Дилерская сеть
 								</a>
 							</li>
@@ -99,21 +93,21 @@
 		<div class="container">
 			<div class="design-wrapper">
 				<div class="design-block">
-					<img src="img/car/image-5.png" alt="BMW X6" class="feature__img design-block__img"
+					<img src="img/car/image-5.png" alt="A 200" class="feature__img design-block__img"
 						data-tabs-field="interior">
-					<img src="img/car/image-4.png" alt="BMW X6" class="feature__img design-block__img hidden"
+					<img src="img/car/image-4.png" alt="A 200" class="feature__img design-block__img hidden"
 						data-tabs-field="body">
 					<div class="design-text">
-						<h2 class="section__title design__title" data-tabs-field="interior">
+						<h2 class="section__title design__title">
 							Комфорт в деталях
 						</h2>
-						<h2 class="section__title design__title hidden" data-tabs-field="body">
+						<h2 class="section__title design__title hidden">
 							Притягивает взгляды
 						</h2>
 						<ul class="design-list">
 							<li>
 								<button type="button" class="design-list__item design-list__item_active"
-									data-tabs-handler="interior">Дизайн салона</button>
+									data-tabs-handler="interior" data-some-attr="attr">Дизайн салона</button>
 							</li>
 							<li>
 								<button type="button" class="design-list__item" data-tabs-handler="body">Дизайн
@@ -153,16 +147,16 @@
 				<!-- /.design-block -->
 				<ul>
 					<li class="design-images" data-tabs-field="interior">
-						<img src="img/design/interior01.jpg" alt="BMW X6" class="design__img">
-						<img src="img/design/interior02.jpg" alt="BMW X6" class="design__img">
-						<img src="img/design/interior03.jpg" alt="BMW X6" class="design__img">
-						<img src="img/design/interior04.jpg" alt="BMW X6" class="design__img">
+						<img src="img/design/interior01.jpg" alt="A 200" class="design__img">
+						<img src="img/design/interior02.jpg" alt="A 200" class="design__img">
+						<img src="img/design/interior03.jpg" alt="A 200" class="design__img">
+						<img src="img/design/interior04.jpg" alt="A 200" class="design__img">
 					</li>
 					<li class="design-images hidden" data-tabs-field="body">
-						<img src="img/design/body01.jpg" alt="BMW X6" class="design__img">
-						<img src="img/design/body02.jpg" alt="BMW X6" class="design__img">
-						<img src="img/design/body03.jpg" alt="BMW X6" class="design__img">
-						<img src="img/design/body04.jpg" alt="BMW X6" class="design__img">
+						<img src="img/design/body01.jpg" alt="A 200" class="design__img">
+						<img src="img/design/body02.jpg" alt="A 200" class="design__img">
+						<img src="img/design/body03.jpg" alt="A 200" class="design__img">
+						<img src="img/design/body04.jpg" alt="A 200" class="design__img">
 					</li>
 				</ul>
 			</div>
